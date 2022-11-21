@@ -1,0 +1,39 @@
+/* variáveis de cores */
+:root {
+  --cor-w1: #fafafa;
+  --cor-c4: #3c3c3c;
+  --cor-c3: #2b2b2b;
+  --cor-c2: #1b1b1b;
+  --cor-c1: #0c0c0c;
+  --cor-p1: #3ce14c;
+  --cor-p2: #38b344;
+}
+
+/* estilos das cores */
+.cor-white {
+  color: #ffffff;
+}
+.cor-w1 {
+  color: var(--cor-w1);
+}
+.cor-black {
+  color: #000000;
+}
+.cor-c4 {
+  color: var(--cor-c4);
+}
+.cor-c3 {
+  color: var(--cor-c3);
+}
+.cor-c2 {
+  color: var(--cor-c2);
+}
+.cor-c1 {
+  color: var(--cor-c1);
+}
+.cor-p1 {
+  color: var(--cor-p1);
+}
+.cor-p2 {
+  color: var(--cor-p2);
+}
