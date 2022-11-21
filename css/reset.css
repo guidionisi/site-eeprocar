@@ -1,0 +1,36 @@
+/* reset */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: var(--cor-w1);
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  padding: 0px;
+  margin: 0px;
+  font-weight: normal;
+  font-size: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

@@ -1,5 +1,9 @@
+@import "./reset.css";
 @import "./cor.css";
 @import "./tipografia.css";
 @import "./global.css";
 @import "./header.css";
 @import "./historia.css";
+@import "./galeria.css";
+@import "./uep.css";
+@import "./curso.css";

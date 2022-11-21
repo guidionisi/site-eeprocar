@@ -1,38 +1,16 @@
-body {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  background-color: var(--cor-w1);
-  box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-p {
-  padding: 0px;
-  margin: 0px;
-  font-weight: normal;
-  font-size: inherit;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-ul {
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   max-width: 1200px;
+}
+
+/* padrão para títulos de seção */
+h3 {
+  font: 500 2.625rem/1 "Poppins", sans-serif;
+  letter-spacing: 1%;
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+
+h3 span {
+  color: var(--cor-p1);
 }

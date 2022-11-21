@@ -1,0 +1,18 @@
+.galeria-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  /* border: red 1px solid; */
+  margin-bottom: 100px;
+}
+
+.galeria {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.galeria-container img {
+  max-width: 280px;
+  border-radius: 8px;
+}

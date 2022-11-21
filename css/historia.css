@@ -1,3 +1,31 @@
 .historia {
-  padding-top: 40px;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 40px;
+  /* position: absolute; */
+}
+
+.historia-imagem img {
+  max-width: 280px;
+  border-radius: 8px;
+  position: relative;
+  top: -162px;
+}
+.historia-container p span {
+  color: var(--cor-p1);
+  font-weight: 700;
+}
+
+.historia-texto a {
+  display: inline-block;
+  color: var(--cor-p3);
+  font-size: 1rem;
+  text-align: right;
+}
+
+.historia-texto {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }

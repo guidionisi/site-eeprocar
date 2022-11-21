@@ -7,6 +7,7 @@
   --cor-c1: #0c0c0c;
   --cor-p1: #3ce14c;
   --cor-p2: #38b344;
+  --cor-p3: #fc5a32;
 }
 
 /* estilos das cores */
@@ -36,4 +37,7 @@
 }
 .cor-p2 {
   color: var(--cor-p2);
+}
+.cor-p3 {
+  color: var(--cor-p3);
 }
