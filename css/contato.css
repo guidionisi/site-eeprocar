@@ -1,0 +1,37 @@
+.contato {
+  background-color: var(--cor-w1);
+  padding-top: 40px;
+}
+.contato-container {
+  display: flex;
+  gap: 80px;
+  padding-bottom: 60px;
+  align-items: flex-end;
+}
+.contato-container img {
+  max-width: 600px;
+  border-radius: 8px;
+}
+.contato ul {
+  margin-bottom: 20px;
+}
+
+.contato ul.local::before {
+  content: url("/img/icon/local.svg");
+  bottom: -30px;
+  right: 28px;
+  position: relative;
+}
+.contato ul.phone::before {
+  content: url("/img/icon/phone.svg");
+  bottom: -30px;
+  right: 28px;
+  position: relative;
+}
+
+.contato ul.email::before {
+  content: url("/img/icon/email.svg");
+  bottom: -30px;
+  right: 28px;
+  position: relative;
+}
