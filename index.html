@@ -15,11 +15,11 @@
     <!-- estilos -->
     <link rel="stylesheet" href="./css/style.css">
 
-    <!-- scripts -->
 </head>
 
 <body>
-    <section class="header">
+    <!-- -------------------- seção HEADER -------------------- -->
+    <header>
         <div class="header-title container">
             <img src="./img/icon/logo-eeprocar.svg" alt="Logotipo da EEPROCAR">
             <div>
@@ -27,34 +27,40 @@
                 <h2 class="font-2-m-upper cor-c4">Escola Estadual de Educação Profissional de Carazinho</h2>
             </div>
         </div>
-        <div>
-            <ul class="header-menu font-2-s cor-c4">
+
+        <nav class="header-menu font-2-s cor-c4">
+            <ul>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#escola">Galeria</a></li>
+                <li><a href="#ueps">Ueps</a></li>
                 <li><a href="#cursos">Cursos</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#editais">Editais</a></li>
                 <li><a href="#contato">Contato</a></li>
-                <li><a href="#inscricoes">Inscrições</a></li>
+
             </ul>
-        </div>
+        </nav>
 
-    </section>
 
-    <section class="container">
+    </header>
+
+    <!-- -------------------- seção HISTÓRIA -------------------- -->
+    <section class="container historia" id="historia">
         <h3>Nossa <span>história</span></h3>
-        <div class="historia">
+        <div class="historia-container">
             <div class="historia-texto font-2-l">
-                <p>Criada em <span>19xx</span> ipsum dolor sit amet consectetur adipisicing elit. Facilis tenetur, ea voluptate nulla nisi laborum velit minima similique ex deserunt labore repudiandae aperiam modi nesciunt, commodi magnam eos. Ipsa, eius. Lorem ipsum dolor sit <span>amet consectetur </span> elit. Laborum temporibus accusantium iste corporis velit dolor nihil id labore, dicta excepturi corrupti, quidem non <span>dignissimos consequatur natus</span> veniam deleniti? Odit, laudantium.</p>
+                <p>Criada em <span>19xx</span> ipsum dolor sit amet consectetur adipisicing elit. Facilis tenetur, ea voluptate nulla nisi laborum velit minima similique ex deserunt labore repudiandae aperiam modi nesciunt, commodi magnam eos. Ipsa, eius. Lorem ipsum dolor sit <span>amet consectetur </span> elit. Laborum temporibus accusantium iste corporis velit dolor nihil id labore, dicta excepturi corrupti, quidem non <span>dignissimos consequatur natus</span> veniam deleniti? Odit, laudantium. </p>
+
                 <a href="./page/saibamais.html">Saiba mais → </a>
             </div>
-            <div class="historia-imagem">
-                <img src="./img/foto-05.png" alt="Escola EEPROCAR">
-            </div>
+
+
+            <img src="./img/foto-05.png" alt="Escola EEPROCAR">
         </div>
     </section>
-
-    <section class="container">
+    <!-- -------------------- seção GALERIA -------------------- -->
+    <section class="container galeria" id="escola">
         <h3>Conheça <span>a escola</span></h3>
-        <div class="galeria-container galeria">
+
+        <div class="galeria-container">
             <img src="./img/foto-01.png" alt="">
             <img src="./img/foto-02.png" alt="">
             <img src="./img/foto-03.png" alt="">
@@ -62,7 +68,8 @@
         </div>
     </section>
 
-    <section class="uep">
+    <!-- -------------------- seção UEPs -------------------- -->
+    <section class="uep" id="ueps">
         <div class="container">
             <h3>Unidades educativas de <span>produção</span></h3>
         </div>
@@ -107,7 +114,8 @@
         </div>
     </section>
 
-    <section class="cursos container">
+    <!-- -------------------- seção CURSOS -------------------- -->
+    <section class="cursos container" id="cursos">
         <h3 class="big-border-up"><span>Cursos</span> oferecidos</h3>
         <div class="cursos-lista">
             <article class="curso-container">
@@ -139,7 +147,8 @@
         </div>
     </section>
 
-    <section class="contato container">
+    <!-- -------------------- seção CONTATO -------------------- -->
+    <section class="contato container" id="contato">
         <h3>Nosso <span>contato</span></h3>
         <div class="contato-container">
             <div>
@@ -163,9 +172,14 @@
 
     </section>
 
+    <!-- -------------------- ícone TOPO -------------------- -->
+    <!-- <div class="seta-topo">
+        <span>🠕</span>
+    </div> -->
+
+    <!-- -------------------- seção FOOTER -------------------- -->
     <footer class="font-2-m cor-w1">
         <div class="footer-container container">
-
             <ul>
                 <li>BR 285 - km 211 - Trevo da Bandeira</li>
                 <li>CEP 99.500-000 - Caixa Postal 28</li>
@@ -177,6 +191,7 @@
                 <li>email@eeprocar.com.br</li>
                 <li>@eeprocar</li>
             </ul>
+
             <ul>
                 <li class="logo">
                     <img src="./img/logo/secedu 1.png" alt="logo SeducRS">
@@ -184,10 +199,18 @@
                 </li>
             </ul>
         </div>
-        <div>
-            <span class="font-2-s cor-w1">Todos os direitos reservados. Desenvolvido por @guidionisi.</span>
+        <div class="direitos">
+            <!-- <p><strong> Alguns direitos reservados.<strong></p> -->
+            <p class="font-2-s">
+                Desenvolvido por <a href="http://www.guilhermedionisio.com.br"><strong>@guidionisi</strong></a>
+                Fotografias: direitos reservados à EEPROCAR.
+                Ícones: desenvolvidos por freepek.com.</p>
         </div>
     </footer>
+
+    <!-- scripts -->
+    <script src="./js/jquery-3.6.1.min.js" type="text/javascript"></script>
+    <script src="./js/app.js" type="text/javascript"></script>
 </body>
 
 </html>

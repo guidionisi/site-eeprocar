@@ -1,11 +1,16 @@
+.galeria {
+  margin-top: 60px;
+  padding-bottom: 20px;
+}
+
 .galeria-container {
   max-width: 1400px;
   margin: 0 auto;
   /* border: red 1px solid; */
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
-.galeria {
+.galeria-container {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(4, 1fr);

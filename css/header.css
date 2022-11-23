@@ -1,9 +1,8 @@
-.header {
+header {
   background-color: var(--cor-p1);
   padding-top: 40px;
-  padding-bottom: 12px;
-  margin-bottom: 40px;
-  /* border: red 1px solid; */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .header-title {
@@ -24,7 +23,7 @@
   background-color: var(--cor-c3);
 }
 
-.header-menu {
+.header-menu ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

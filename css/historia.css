@@ -1,26 +1,22 @@
 .historia {
-  display: flex;
-  gap: 20px;
-  padding-bottom: 40px;
-  /* position: absolute; */
+  padding-top: 60px;
+  margin-bottom: 20px;
 }
 
-.historia-imagem img {
+.historia-container {
+  display: flex;
+  gap: 20px;
+  /* position: absolute; */
+}
+.historia-container img {
   max-width: 280px;
   border-radius: 8px;
   position: relative;
-  top: -162px;
+  top: -182px;
 }
-.historia-container p span {
+.historia p span {
   color: var(--cor-p1);
   font-weight: 700;
-}
-
-.historia-texto a {
-  display: inline-block;
-  color: var(--cor-p3);
-  font-size: 1rem;
-  text-align: right;
 }
 
 .historia-texto {
@@ -28,4 +24,11 @@
   flex-direction: column;
   margin-bottom: 0px;
   padding-bottom: 0px;
+}
+
+.historia-texto a {
+  display: inline-block;
+  color: var(--cor-p3);
+  font-size: 1rem;
+  text-align: right;
 }

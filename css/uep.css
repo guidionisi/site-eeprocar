@@ -1,6 +1,7 @@
 .uep {
   background-color: var(--cor-c3);
   box-shadow: inset 0px -60px var(--cor-w1);
+  margin-top: 60px;
   margin-bottom: 20px;
 }
 .uep h3 {
@@ -26,6 +27,7 @@
   height: 120px;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .uep-item img {
   /* width: ; */

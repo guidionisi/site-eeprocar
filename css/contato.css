@@ -1,6 +1,7 @@
 .contato {
   background-color: var(--cor-w1);
-  padding-top: 40px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 .contato-container {
   display: flex;
