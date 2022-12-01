@@ -11,47 +11,102 @@
 
 .uep-lista {
   display: flex;
-  flex-direction: row;
-  gap: 40px;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
   max-width: 1400px;
-  height: 132px;
+  height: 124px;
   margin: 0px auto;
   margin-bottom: 60px;
-  /* border: red 1px solid; */
+  /* border: solid 1px red; */
 }
 .uep-item {
   display: flex;
-  background-color: var(--cor-p2);
-  border-radius: 4px;
-  width: 100px;
-  height: 120px;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  background-color: var(--cor-p2);
+  border-radius: 4px;
+  min-width: 96px;
+  height: 116px;
   cursor: pointer;
+  /* border: solid 1px red; */
 }
 .uep-item img {
-  /* width: ; */
+  /* border: solid 1px red; */
   height: 60%;
 }
-.uep-texto {
+
+.uep-descricao {
   display: flex;
   margin: 0 auto;
   max-width: 1200px;
 }
-.uep-texto img {
+
+.uep-descricao img {
   max-width: 360px;
+  /* border: solid 1px blue; */
+  /* display: none; */
 }
 
 .uep-item:hover {
   background-color: var(--cor-p1);
-  width: 120px;
-  height: 132px;
-  transform: translate(0px, -6px);
+  width: 100px;
+  height: 124px;
+  /* transform: translate3d(0px, 0px); */
   transition: 0.3s;
 }
 .uep-item:not(:hover) {
   transition: 0.3s;
 }
-.uep-item:hover img {
-  /* width: 120%; */
+.none {
+  display: none;
+}
+/* RESPONSIVO */
+@media (max-width: 1000px) {
+  .uep-descricao img {
+    max-width: 300px;
+  }
+  .uep-descricao p {
+    font-size: 1.375rem;
+    padding-left: 8px;
+  }
+  .uep-lista {
+    margin-bottom: 0px;
+  }
+  .uep-item {
+    min-width: 80px;
+    height: 100px;
+  }
+  .uep-item:hover {
+    min-width: 88px;
+    height: 110px;
+  }
+}
+@media (max-width: 850px) {
+  .uep {
+    margin-top: 40px;
+  }
+  .uep-descricao img {
+    max-width: 240px;
+  }
+  .uep-descricao p {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .uep-descricao img {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .uep {
+    box-shadow: inset 0px 0px var(--cor-w1);
+    padding-bottom: 20px;
+  }
+  .uep-descricao p {
+    font-size: 1rem;
+  }
 }

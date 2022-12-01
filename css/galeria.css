@@ -1,13 +1,11 @@
 .galeria {
-  margin-top: 60px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 
 .galeria-container {
   max-width: 1400px;
   margin: 0 auto;
-  /* border: red 1px solid; */
-  /* margin-bottom: 100px; */
 }
 
 .galeria-container {
@@ -15,6 +13,8 @@
   gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
+  /* overflow: auto; */
+  /* white-space: nowrap; */
 }
 
 .galeria-container img {

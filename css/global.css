@@ -2,7 +2,9 @@
   margin: 0 auto;
   max-width: 1200px;
 }
-
+.none {
+  display: none;
+}
 /* padrão para títulos de seção */
 h3 {
   font: 500 2.625rem/1 "Poppins", sans-serif;
@@ -13,4 +15,20 @@ h3 {
 
 h3 span {
   color: var(--cor-p1);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.scroll-h {
+  overflow-x: auto;
+}
+
+@media (max-width: 800px) {
+  h3 {
+    font-size: 2rem;
+  }
 }
