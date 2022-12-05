@@ -1,6 +1,6 @@
 .uep {
   background-color: var(--cor-c3);
-  box-shadow: inset 0px -60px var(--cor-w1);
+  box-shadow: inset 0px -40px var(--cor-w1);
   margin-top: 60px;
   margin-bottom: 20px;
 }
@@ -8,7 +8,6 @@
   color: var(--cor-w1);
   padding-top: 60px;
 }
-
 .uep-lista {
   display: flex;
   gap: 16px;
@@ -18,7 +17,6 @@
   height: 124px;
   margin: 0px auto;
   margin-bottom: 60px;
-  /* border: solid 1px red; */
 }
 .uep-item {
   display: flex;
@@ -30,30 +28,24 @@
   min-width: 96px;
   height: 116px;
   cursor: pointer;
-  /* border: solid 1px red; */
 }
 .uep-item img {
-  /* border: solid 1px red; */
   height: 60%;
 }
-
 .uep-descricao {
   display: flex;
   margin: 0 auto;
   max-width: 1200px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
-
 .uep-descricao img {
-  max-width: 360px;
-  /* border: solid 1px blue; */
-  /* display: none; */
+  width: 100%;
 }
-
 .uep-item:hover {
   background-color: var(--cor-p1);
   width: 100px;
   height: 124px;
-  /* transform: translate3d(0px, 0px); */
   transition: 0.3s;
 }
 .uep-item:not(:hover) {
@@ -62,17 +54,18 @@
 .none {
   display: none;
 }
-/* RESPONSIVO */
+/* ------------------- RESPONSIVO ------------------- */
 @media (max-width: 1000px) {
-  .uep-descricao img {
-    max-width: 300px;
+  .uep h3 {
+    padding-top: 30px;
+    margin-bottom: 20px;
   }
   .uep-descricao p {
-    font-size: 1.375rem;
+    font-size: 1.25rem;
     padding-left: 8px;
   }
   .uep-lista {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
   .uep-item {
     min-width: 80px;
@@ -86,26 +79,22 @@
 @media (max-width: 850px) {
   .uep {
     margin-top: 40px;
-  }
-  .uep-descricao img {
-    max-width: 240px;
+    padding-bottom: 20px;
   }
   .uep-descricao p {
     font-size: 1.125rem;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
+  .uep {
+    box-shadow: inset 0px 0px var(--cor-w1);
+  }
   .uep-descricao img {
     display: none;
   }
 }
-
 @media (max-width: 500px) {
-  .uep {
-    box-shadow: inset 0px 0px var(--cor-w1);
-    padding-bottom: 20px;
-  }
   .uep-descricao p {
     font-size: 1rem;
   }

@@ -30,7 +30,7 @@ footer img {
   max-height: 96px;
 }
 
-/* RESPONSIVO */
+/* ----------------- RESPONSIVO ----------------- */
 @media (max-width: 1000px) {
   .footer-container {
     grid-template-columns: 1fr 1fr;
@@ -40,6 +40,7 @@ footer img {
   footer ul {
     margin-bottom: 32px;
     font-size: 1.125rem;
+    line-height: 1.25;
   }
   .address {
     grid-column: 1;
@@ -69,7 +70,6 @@ footer img {
   }
   footer ul {
     font-size: 0.875rem;
-    line-height: 1.25;
   }
   .direitos p {
     font-size: 0.75rem;

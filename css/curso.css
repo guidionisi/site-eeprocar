@@ -8,7 +8,6 @@
   gap: 80px;
   justify-content: center;
 }
-
 .curso-container {
   background-color: var(--cor-p1);
   border-radius: 8px;
@@ -16,7 +15,6 @@
   max-width: 100%;
   box-shadow: 2px 2px 4px rgba(54, 199, 68, 0.25);
 }
-
 .curso-container h4 {
   background-color: var(--cor-c4);
   text-align: center;
@@ -25,7 +23,6 @@
   border-radius: 8px 8px 0 0;
   box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.25);
 }
-
 .curso-container ul {
   padding: 40px 0px 20px 40px;
 }
@@ -39,7 +36,7 @@
   color: var(--cor-w1);
 }
 
-/* RESPONSIVO */
+/* ----------------- RESPONSIVO ---------------- */
 @media (max-width: 1200px) {
   .cursos-lista {
     margin: 0px 8px;

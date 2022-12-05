@@ -19,28 +19,25 @@
 
 <body>
     <!-- -------------------- seção HEADER -------------------- -->
-    <header>
-        <div class="header-title container">
+    <header class="header container">
 
-            <div class="header-logo">
-                <img src="./img/logo/logo-eeprocar.svg" alt="Logotipo da EEPROCAR">
-                <!-- <img src="./img/logo/logo-eeprocar1.png" alt="Logotipo da EEPROCAR"> -->
-            </div>
-
-            <div>
-                <h1 class="font-1-xl cor-c3">EEPROCAR</h1>
-                <h2 class="font-2-m-upper cor-c4">Escola Estadual de Educação Profissional de Carazinho</h2>
-            </div>
-
-            <!-- menu mobile ÍCONE-->
-            <div class="mobile-menu-icon">
-                <img src="./img/icon/menu-hamburger.svg" alt="menu hamburger">
-            </div>
-            <!-- fim do menu mobile -->
-
+        <div class="header-logo">
+            <img src="./img/logo/logo-eeprocar.svg" alt="Logotipo da EEPROCAR">
+            <!-- <img src="./img/logo/logo-eeprocar1.png" alt="Logotipo da EEPROCAR"> -->
         </div>
 
-        <nav class="header-menu font-2-s cor-c4">
+        <div>
+            <h1 class="font-1-xl cor-c3">EEPROCAR</h1>
+            <h2 class="font-2-m-upper cor-c4">Escola Estadual de Educação Profissional de Carazinho</h2>
+        </div>
+
+        <!-- menu mobile ÍCONE-->
+        <div class="mobile-menu-icon">
+            <img src="./img/icon/menu-hamburger.svg" alt="menu hamburger">
+        </div>
+        <!-- fim do menu mobile -->
+
+        <nav class="font-2-s cor-c4">
             <ul>
                 <li><a href="#historia">História</a></li>
                 <li><a href="#escola">Galeria</a></li>
@@ -65,10 +62,13 @@
     </header>
 
     <!-- -------------------- seção HISTÓRIA -------------------- -->
-    <section class="container historia" id="historia">
+    <section class="historia container" id="historia">
+
         <div class="empty-cell"></div>
-        <img src="./img/foto-05.png" alt="Escola EEPROCAR">
-        <div>
+        <div class="historia-imagem">
+            <img src="./img/foto-05.png" alt="Escola EEPROCAR">
+        </div>
+        <div class="historia-conteudo">
             <h3>Nossa <span>história</span></h3>
             <!-- <div class="historia-container"> -->
             <div class="historia-texto font-2-l">
@@ -77,19 +77,20 @@
                 <a href="./page/saibamais.html">Saiba mais → </a>
             </div>
         </div>
+        </div>
 
-
-        <!-- </div> -->
     </section>
 
     <!-- -------------------- seção GALERIA -------------------- -->
     <section class="container galeria" id="escola">
-        <h3>Conheça <span>a escola</span></h3>
-
+        <div class="container">
+            <h3>Conheça <span>a escola</span></h3>
+        </div>
         <div class="galeria-container scroll-h">
             <img src="./img/foto-01.png" alt="">
             <img src="./img/foto-02.png" alt="">
             <img src="./img/foto-03.png" alt="">
+            <img src="./img/foto-04.png" alt="">
             <img src="./img/foto-04.png" alt="">
         </div>
     </section>
